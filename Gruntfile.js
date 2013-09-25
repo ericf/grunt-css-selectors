@@ -2,8 +2,8 @@
  * grunt-css-selectors
  * https://github.com/ericf/grunt-css-selectors
  *
- * Copyright (c) 2013 Eric Ferraiuolo
- * Licensed under the BSD license.
+ * Copyright 2013 Yahoo! Inc.
+ * Licensed under the Yahoo! Inc. BSD license.
  */
 
 'use strict';
