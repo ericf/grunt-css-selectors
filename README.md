@@ -100,6 +100,11 @@ In lieu of a formal styleguide, take care to maintain the existing coding style.
 
 ## Release History
 
-### 0.1.0
+### 0.1.1 (2013-09-25)
+
+* Fixed copyright on all files to be Yahoo! Inc.
+
+
+### 0.1.0 (2013-09-25)
 
 * Initial Release
