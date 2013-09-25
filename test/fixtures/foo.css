@@ -1,0 +1,16 @@
+.foo {
+    margin: 0;
+}
+
+.foo {
+    padding: 0;
+}
+
+.foo table {
+    border: 0;
+}
+
+.foo .bar {
+    background: #000;
+    color: #fff;
+}

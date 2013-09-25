@@ -1,0 +1,49 @@
+{
+  "name": "grunt-css-selectors",
+  "description": "Mutate CSS selectors.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/ericf/grunt-css-selectors",
+  "author": {
+    "name": "Eric Ferraiuolo",
+    "email": "eferraiuolo@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ericf/grunt-css-selectors.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ericf/grunt-css-selectors/issues"
+  },
+  "licenses": [
+    {
+      "type": "BSD",
+      "url": "https://github.com/ericf/grunt-css-selectors/blob/master/LICENSE"
+    }
+  ],
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-clean": "~0.4.0",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt": "~0.4.1"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.1"
+  },
+  "keywords": [
+    "gruntplugin",
+    "css",
+    "selector",
+    "selectors",
+    "rework"
+  ],
+  "dependencies": {
+    "rework": "~0.18.1"
+  }
+}
