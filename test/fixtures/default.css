@@ -14,3 +14,9 @@ table {
     background: #000;
     color: #fff;
 }
+
+@media (max-width: 480px) {
+    ul {
+        padding-left: 0;
+    }
+}
