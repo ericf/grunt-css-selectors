@@ -100,6 +100,12 @@ In lieu of a formal styleguide, take care to maintain the existing coding style.
 
 ## Release History
 
+### 0.1.2 (2013-09-27)
+
+* Fixed issue with selectors in media queries and keyframes not being visited by
+  updating the `rework-mutate-selectors` plugin.
+
+
 ### 0.1.1 (2013-09-25)
 
 * Fixed copyright on all files to be Yahoo! Inc.
