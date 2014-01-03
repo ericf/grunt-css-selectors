@@ -106,7 +106,7 @@ In lieu of a formal styleguide, take care to maintain the existing coding style.
 
 ### 1.0.0 (2014-01-03)
 
-* [!] Stable.
+* **[!]** Stable.
 
 * Updated dependencies.
 
