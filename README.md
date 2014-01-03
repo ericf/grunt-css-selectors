@@ -1,5 +1,9 @@
 # grunt-css-selectors
 
+[![Build Status](https://travis-ci.org/ericf/grunt-css-selectors.png?branch=master)](https://travis-ci.org/ericf/grunt-css-selectors)
+[![Dependency Status](https://gemnasium.com/ericf/grunt-css-selectors.png)](https://gemnasium.com/ericf/grunt-css-selectors)
+[![npm Version](https://badge.fury.io/js/grunt-css-selectors.png)](https://npmjs.org/package/grunt-css-selectors)
+
 > Mutate CSS selectors.
 
 ## Getting Started
