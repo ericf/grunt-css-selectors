@@ -104,6 +104,15 @@ In lieu of a formal styleguide, take care to maintain the existing coding style.
 
 ## Release History
 
+### 1.0.0 (2014-01-03)
+
+* [!] Stable.
+
+* Updated dependencies.
+
+* Added Travis CI support.
+
+
 ### 0.1.2 (2013-09-27)
 
 * Fixed issue with selectors in media queries and keyframes not being visited by
