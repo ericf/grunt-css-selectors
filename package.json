@@ -44,7 +44,7 @@
     "rework"
   ],
   "dependencies": {
-    "rework": "~0.20.2",
-    "rework-mutate-selectors": "~1.0.1"
+    "rework": "^1.0.0",
+    "rework-mutate-selectors": "^2.0.0"
   }
 }
