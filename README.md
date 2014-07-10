@@ -104,6 +104,11 @@ In lieu of a formal styleguide, take care to maintain the existing coding style.
 
 ## Release History
 
+### 1.1.0 (2014-07-10)
+
+* Update to `rework@1.0.0` and `rework-mutate-selectors@2.0.0`.
+ 
+
 ### 1.0.0 (2014-01-03)
 
 * **[!]** Stable.
