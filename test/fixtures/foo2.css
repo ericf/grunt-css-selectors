@@ -1,0 +1,14 @@
+.foo p {
+    font-size: 16px;
+}
+
+.foo .not-bar {
+    background: #fff;
+    color: #000;
+}
+
+@media (max-width: 480px) {
+    .foo ol {
+        padding-left: 0;
+    }
+}

@@ -36,6 +36,15 @@ exports.css_selectors = {
 
     test.done();
   },
+    prefixCombined: function(test) {
+        test.expect(1);
+
+        var actual = grunt.file.read('tmp/prefixCombined.css');
+        var expected = grunt.file.read('test/expected/prefixCombined.css');
+        test.equal(actual, expected, 'should prefix selectors with ".foo"');
+
+        test.done();
+    },  
   replace: function(test) {
     test.expect(1);
 
@@ -44,5 +53,14 @@ exports.css_selectors = {
     test.equal(actual, expected, 'should repalce selectors with ".baz"');
 
     test.done();
-  }
+  },
+    replaceCombined: function(test) {
+        test.expect(1);
+
+        var actual = grunt.file.read('tmp/replaceCombined.css');
+        var expected = grunt.file.read('test/expected/replaceCombined.css');
+        test.equal(actual, expected, 'should repalce selectors with ".baz"');
+
+        test.done();
+    }
 };
