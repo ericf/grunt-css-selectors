@@ -108,6 +108,11 @@ In lieu of a formal styleguide, take care to maintain the existing coding style.
 
 ## Release History
 
+### 1.2.0 (2015-02-10)
+
+* Multiple source files in a target are now supported. #4 (@trungpham)
+* README examples have been updated to include a Grunt target. #2 (@lrdiv)
+
 ### 1.1.0 (2014-07-10)
 
 * Update to `rework@1.0.0` and `rework-mutate-selectors@2.0.0`.
