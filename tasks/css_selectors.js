@@ -9,7 +9,8 @@
 'use strict';
 
 var rework    = require('rework'),
-    selectors = require('rework-mutate-selectors');
+    selectors = require('rework-mutate-selectors'),
+    EOL       = require('os').EOL;
 
 module.exports = function (grunt) {
 
@@ -21,7 +22,7 @@ module.exports = function (grunt) {
 
         // Iterate over all specified file groups.
         this.files.forEach(function (fileGroup) {
-            fileGroup.src.forEach(function (file) {
+            var cssString = fileGroup.src.map(function (file) {
                 var css = rework(grunt.file.read(file));
 
                 options.mutations.forEach(function (m) {
@@ -34,9 +35,11 @@ module.exports = function (grunt) {
                     }
                 });
 
-                grunt.file.write(fileGroup.dest, css.toString(options));
-                grunt.log.writeln('File "' + fileGroup.dest + '" created.');
+                return css.toString(options);
             });
+            
+            grunt.file.write(fileGroup.dest, cssString.join(EOL));
+            grunt.log.writeln('File "' + fileGroup.dest + '" created.');
         });
     });
 

@@ -1,0 +1,30 @@
+.foo {
+    margin: 0;
+}
+
+.foo {
+    padding: 0;
+}
+
+.foo table {
+    border: 0;
+}
+
+.foo .bar {
+    background: #000;
+    color: #fff;
+}
+
+@media (max-width: 480px) {
+    .foo ul {
+        padding-left: 0;
+    }
+}
+.foo p {
+    font-size: 16px;
+}
+
+.foo .bar {
+    background: #fff;
+    color: #000;
+}
