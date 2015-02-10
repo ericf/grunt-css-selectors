@@ -34,8 +34,10 @@ module.exports = function (grunt) {
                         return css.use(selectors.replace(m.search, m.replace));
                     }
                 });
-                return css.toString(options); 
+
+                return css.toString(options);
             });
+            
             grunt.file.write(fileGroup.dest, cssString.join(EOL));
             grunt.log.writeln('File "' + fileGroup.dest + '" created.');
         });

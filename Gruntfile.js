@@ -40,16 +40,16 @@ module.exports = function(grunt) {
           'tmp/prefix.css': ['test/fixtures/default.css'],
         },
       },
-        prefixAndCombine: {
-            options: {
-                mutations: [
-                    {prefix: '.foo'}
-                ]
-            },
-            files: {
-                'tmp/prefixCombined.css': ['test/fixtures/default.css', 'test/fixtures/default2.css'],
-            },
-        },        
+      prefixAndCombine: {
+        options: {
+          mutations: [
+            {prefix: '.foo'}
+          ]
+        },
+        files: {
+          'tmp/prefixCombined.css': ['test/fixtures/default.css', 'test/fixtures/default2.css'],
+        },
+      },
       replace: {
         options: {
           mutations: [
@@ -60,16 +60,16 @@ module.exports = function(grunt) {
           'tmp/replace.css': ['test/fixtures/foo.css'],
         },
       },
-        replaceAndCombine: {
-            options: {
-                mutations: [
-                    {search: /^\.foo/g, replace: '.baz'}
-                ]
-            },
-            files: {
-                'tmp/replaceCombined.css': ['test/fixtures/foo.css', 'test/fixtures/foo2.css'],
-            },
-        }
+      replaceAndCombine: {
+        options: {
+          mutations: [
+            {search: /^\.foo/g, replace: '.baz'}
+          ]
+        },
+        files: {
+          'tmp/replaceCombined.css': ['test/fixtures/foo.css', 'test/fixtures/foo2.css'],
+        },
+      }
     },
 
     // Unit tests.
