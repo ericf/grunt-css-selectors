@@ -73,8 +73,10 @@ grunt.initConfig({
         {prefix: '.foo'}
       ]
     },
-    files: {
-      'dest/foo-prefixed.css': ['src/foo.css'],
+    your_target: {
+      files: {
+        'dest/foo-prefixed.css': ['src/foo.css'],
+      },
     },
   },
 })
@@ -92,8 +94,10 @@ grunt.initConfig({
         {search: /^\.pure/g, replace: '.yui3'}
       ]
     },
-    files: {
-      'dest/foo-yui3.css': ['src/foo-pure.css'],
+    your_target: {
+      files: {
+        'dest/foo-yui3.css': ['src/foo-pure.css'],
+      },
     },
   },
 })
