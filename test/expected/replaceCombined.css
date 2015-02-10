@@ -1,0 +1,36 @@
+.baz {
+    margin: 0;
+}
+
+.baz {
+    padding: 0;
+}
+
+.baz table {
+    border: 0;
+}
+
+.baz .bar {
+    background: #000;
+    color: #fff;
+}
+
+@media (max-width: 480px) {
+    .baz ul {
+        padding-left: 0;
+    }
+}
+.baz p {
+    font-size: 16px;
+}
+
+.baz .not-bar {
+    background: #fff;
+    color: #000;
+}
+
+@media (max-width: 480px) {
+    .baz ol {
+        padding-left: 0;
+    }
+}
