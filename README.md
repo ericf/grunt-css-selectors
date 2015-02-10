@@ -1,8 +1,8 @@
 # grunt-css-selectors
 
-[![Build Status](https://travis-ci.org/ericf/grunt-css-selectors.png?branch=master)](https://travis-ci.org/ericf/grunt-css-selectors)
-[![Dependency Status](https://gemnasium.com/ericf/grunt-css-selectors.png)](https://gemnasium.com/ericf/grunt-css-selectors)
-[![npm Version](https://badge.fury.io/js/grunt-css-selectors.png)](https://npmjs.org/package/grunt-css-selectors)
+[![npm Version][npm-badge]][npm]
+[![Build Status][travis-badge]][travis]
+[![Dependency Status][david-badge]][david]
 
 > Mutate CSS selectors.
 
@@ -111,7 +111,7 @@ In lieu of a formal styleguide, take care to maintain the existing coding style.
 ### 1.1.0 (2014-07-10)
 
 * Update to `rework@1.0.0` and `rework-mutate-selectors@2.0.0`.
- 
+
 
 ### 1.0.0 (2014-01-03)
 
@@ -136,3 +136,11 @@ In lieu of a formal styleguide, take care to maintain the existing coding style.
 ### 0.1.0 (2013-09-25)
 
 * Initial Release
+
+
+[npm]: https://www.npmjs.org/package/grunt-css-selectors
+[npm-badge]: https://img.shields.io/npm/v/grunt-css-selectors.svg?style=flat-square
+[david]: https://david-dm.org/ericf/grunt-css-selectors
+[david-badge]: https://img.shields.io/david/ericf/grunt-css-selectors.svg?style=flat-square
+[travis]: https://travis-ci.org/ericf/grunt-css-selectors
+[travis-badge]: https://img.shields.io/travis/ericf/grunt-css-selectors.svg?style=flat-square
