@@ -1,7 +1,7 @@
 {
   "name": "grunt-css-selectors",
   "description": "Mutate CSS selectors.",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "homepage": "https://github.com/ericf/grunt-css-selectors",
   "author": {
     "name": "Eric Ferraiuolo",
